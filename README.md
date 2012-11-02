@@ -43,13 +43,13 @@ $ git clone git://github.com/shareandenjoy/sns2sms.git
 $ cd sns2sms
 
 # Basic Setup
-# See (https://devcenter.heroku.com/articles/quickstart)
-# See [https://devcenter.heroku.com/articles/git]
-# See [https://devcenter.heroku.com/articles/ruby]
+# See https://devcenter.heroku.com/articles/quickstart
+# See https://devcenter.heroku.com/articles/git
+# See https://devcenter.heroku.com/articles/ruby
 $ heroku create
 
 # Adding Database
-# See [https://devcenter.heroku.com/articles/heroku-postgres-addon]
+# See https://devcenter.heroku.com/articles/heroku-postgres-addon
 $ heroku addons:add heroku-postgresql
 $ heroku pg:info
 === HEROKU_POSTGRESQL_BLACK
@@ -66,12 +66,12 @@ $ heroku pg:promote HEROKU_POSTGRESQL_BLACK
 $ heroku maintenance:off
 
 # Adding the Admin Interface
-# See [https://devcenter.heroku.com//articles/adminium]
+# See https://devcenter.heroku.com//articles/adminium
 $ heroku addons:add adminium
 $ heroku plugins:install git://github.com/isc/heroku-adminium
 
 # Connecting to your Twilio Account
-# See [https://devcenter.heroku.com/articles/config-vars]
+# See https://devcenter.heroku.com/articles/config-vars
 $ heroku config:add TWILIO_ACCOUNT_SID=ACxxxxxxxxxxxxxx
 $ heroku config:add TWILIO_AUTH_TOKEN=yyyyyyyyyyyyyyyyy
 $ heroku config:add TWILIO_APP_SID=APzzzzzzzzzzzzzzzzzz
@@ -90,7 +90,7 @@ $ heroku addons:open adminium
 $ heroku open
 
 # View the logs to look for the SNS config URL
-# See [https://devcenter.heroku.com/articles/logging]
+# See https://devcenter.heroku.com/articles/logging
 $ heroku logs
 ````
 	
