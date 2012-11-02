@@ -1,7 +1,7 @@
 # SNS2SMS #
 
 ## Intro ##
-This app takes SNS notifications from AWS and relays the message component on to a group of international phone numbers using SMS messaging.  Replies to the SMSs will be resent to the entire group.  It uses the (Twilio)[http://www.twilio.com] web service and is packaged ready to run in (Heroku)[http://www.heroku.com/].  This will run on the free tiers of Heroku and Twilio while you test it out.
+This app takes SNS notifications from AWS and relays the message component on to a group of international phone numbers using SMS messaging.  Replies to the SMSs will be resent to the entire group.  It uses the [Twilio](http://www.twilio.com) web service and is packaged ready to run in [Heroku](http://www.heroku.com/).  This will run on the free tiers of Heroku and Twilio while you test it out.
 
 A sample use cases would be alerating a 24 hour 'on call' ops team to an issue on an SNS channel.  A single team member can then respond to the group saying they are on the issue, and respond to the group when it is fixed 
 
@@ -43,7 +43,7 @@ $ git clone git://github.com/shareandenjoy/sns2sms.git
 $ cd sns2sms
 
 # Basic Setup
-# See [https://devcenter.heroku.com/articles/quickstart]
+# See (https://devcenter.heroku.com/articles/quickstart)
 # See [https://devcenter.heroku.com/articles/git]
 # See [https://devcenter.heroku.com/articles/ruby]
 $ heroku create
