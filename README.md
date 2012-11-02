@@ -13,7 +13,7 @@ A sample use cases would be alerating a 24 hour 'on call' ops team to an issue o
 
 ## Usage ##
 
-Steps below, I've added the commandlines and references for these below.  NB - You need to follow the steps as that describes config on 
+Steps below, I've added the commandlines and references for these below.  NB - You need to follow the steps as that describes config on the Twilo end, the commandlines are just to help speed things up
 
 1.   Register on Twilio
      1.   Setup a Twilio Number
